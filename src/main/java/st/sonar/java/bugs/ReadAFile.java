@@ -11,6 +11,7 @@ public class ReadAFile {
 		
 		try {
 			Stream<String> stream = Files.lines(Paths.get(fileName));
+			stream = stream;
 			for(;;) {
 				stream.forEach(System.out::println);
 			}
